@@ -81,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Column(
                 children: [
                   SearchLocation(
-                    apiKey: 'AIzaSyCV-cMBmwbrbTZSklLMnmq4aU3lTIHUJiE',
+                    apiKey: '',
                     language: 'en',
                     country: 'NG',
                     onSelected: (Place place) async {
@@ -96,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 20,
                   ),
                   SearchLocation(
-                    apiKey: 'AIzaSyCV-cMBmwbrbTZSklLMnmq4aU3lTIHUJiE',
+                    apiKey: '',
                     language: 'en',
                     country: 'NG',
                     onSelected: (Place place) async {
